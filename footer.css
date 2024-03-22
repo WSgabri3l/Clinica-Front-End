@@ -1,0 +1,17 @@
+/* Código para mexer na aparência dos elementos do FOOTER. */
+
+#links{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#titleLinks{
+    font-family: 'Times New Roman', Times, serif;
+    color: #F2BD1D;
+    font-size: 20px;
+}
+
+#nameFooter{
+    color: #F2BD1D;
+}

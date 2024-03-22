@@ -1,0 +1,132 @@
+/* Header Config Space */
+
+/* Header Divs */
+
+header{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 100%;
+    background-color: #4A1B8C;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    gap: 15px;
+}
+
+#timeDiv{
+    position: absolute;
+    margin-right: 1700px;
+}
+
+#logoDiv{
+    /*border: 3px solid black;*/
+    width: 110px;
+    height: 110px;
+    margin-top: 27px;
+}
+
+#textDiv{
+    /*border: 3px solid black;*/
+    width: 500px;
+    height: 110px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/* Header Elements */
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/* Nav Config Space */
+
+nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    gap: 15px;
+    overflow: hidden;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/* Nav Elements*/
+
+/* Body Config Space */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #0D0D0D;
+    color: white;
+}
+
+.container{
+    border: 3px solid rgb(255, 255, 255);
+    width: 1300px;
+    height: 700px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Body Elements */
+
+#gif{
+    width: 1300px;
+    height: 700px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/* Footer Config Space */
+
+footer{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 100%;
+    background-color: #4A1B8C;
+}
+
+.footerContainer{
+    border-top: 3px solid rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#logo-slogan{
+    display: flex;
+}
+
+#usefulLinks{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+#credit{
+    display: flex;
+    justify-content: center;
+    background-color: #5F4A8C;
+}
+
+/* Footer Elements */
+
+#logoFooter{
+    width: 70px;
+    height: 70px;
+    margin-top: 17px;
+}
