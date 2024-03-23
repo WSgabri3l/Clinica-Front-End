@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.apresentationDiv{
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#apresentationImage{
+    width: 700px;
+    height: 800px;
+    background-image: url("images/about-image-princioal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#wellcome, #wellcome-phrase{
+    color: #edf0f1;
+    
+}
+
+#wellcome{
+    font-size: 39px;
+}
+
+#wellcome-phrase{
+    font-size: 15px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+.informationDiv{
+    border-top: 3px solid #767DA6;
+    width: 100%;
+    height: 1000px;
+    background-color: #1A0859;
+}
