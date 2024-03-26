@@ -1,0 +1,80 @@
+/* Código para mexer na aparência dos elementos da NAV. */
+
+/*
+
+#initial, #specialty, #about, #contact, #schedule{
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #7F1FBF;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#initial:hover, #specialty:hover, #about:hover, #contact:hover, #schedule:hover{
+    cursor: pointer;
+    background-color: #4a1270;
+    color: rgb(201, 205, 209);
+    border-radius: 35%;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=M+PLUS+1+Code:wght@100..700&display=swap');
+
+#logo2{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+li, a, button{
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navDiv{
+    border-bottom: 3px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #F2BD1D;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(242, 189, 29, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(242, 189, 29, 0.8);
+}
