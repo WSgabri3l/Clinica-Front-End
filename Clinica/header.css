@@ -1,0 +1,14 @@
+/* Código para mexer na aparência dos elementos do HEADER. */
+
+h1{
+    color: #F2BD1D;
+    font-size: 45px;
+}
+
+.headerContainer{
+    cursor: url("images/AC-Pointer.cur"), pointer;
+}
+
+#name, #slogan, #logo{
+    cursor: url("images/AC-Pointer.cur"), pointer;
+}
